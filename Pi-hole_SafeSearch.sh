@@ -3,7 +3,7 @@
 # Created by JakeNology
 ## Define Global Variables
 ## ENABLE IN PIHOLE?
-YOUTUBE=False
+YOUTUBE=True
 
 me=`basename "$0"`
 VERSION="1.6.1" # Fixed IP Address for Duckduckgo. Added SafeSearch for pixabay..., also fixed spelling error 
@@ -19,7 +19,7 @@ maxRuns=10
 # Host Records!!!
 hostRecords=(
     "host-record=forcesafesearch.google.com,216.239.38.120"
-    "host-record=safe.duckduckgo.com,54.241.17.246"
+    "host-record=safe.duckduckgo.com,40.114.177.246"
     "host-record=restrict.youtube.com,216.239.38.120"
     "host-record=strict.bing.com,204.79.197.220"
     "host-record=safesearch.pixabay.com,176.9.158.70"
